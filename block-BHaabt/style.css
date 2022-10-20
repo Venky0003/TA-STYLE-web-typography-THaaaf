@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ====custom styles==== */
+
+/* ---general styles---- */
+*{
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-family: 'Karla', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'DM Serif Display', serif;
+}
+.container{
+    max-width:1400px;
+    /* border:1px solid red; */
+    margin:0 auto;
+    padding: 0 40px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ===header styles=== */
+header{
+   
+    height: 72px;
+    line-height: 72px;
+  
+}
+h3{
+    font-size: 26px;
+    text-transform: capitalize;
+}
+nav a{
+    font-size: 18px;
+    font-variant: small-caps;
+    text-decoration: none;
+    margin-left: 28px;
+    color: black;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+}
+
+
+/* hero section */
+.color-back{
+    background-color:#2d2640 ;
+    height:525px;
+}
+.col-1{
+    width:47%;
+    /* border:1px solid yellow; */
+    margin-top: 55px;
+}
+h1{
+    font-size: 60px;
+    /* font-weight: bold; */
+    color:white;
+    text-transform: capitalize;
+}
+.col-1 p{
+    color:white;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.btn{
+    margin-top: 40px;
+    width:120px;
+    height:40px;
+    border:1px solid white; 
+    background-color: #2d2640;
+}
+.btn a{
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white
+}
+.col-1 img{
+    width:100%;
+}
+/* feautures section */
+.section-2{
+    margin-top: 200px;
+}
+.sect-2-2 {
+  
+    height:50%;
+   margin-top: 18%;
+   
+}
+ h2{
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.sect-2-2 p{
+    margin-top: 5px;
+    color:black;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.sect-2-2 .btn{
+    background-color: white;
+     border:1px solid black; 
+} 
+.sect-2-2 .btn a{
+    color: black;
+    text-transform: capitalize;
+}
+/* we are diiferrent section */
+.section-3{
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+.col-2{
+    width:30%;
+    margin-top: 30px;
+    
+}
+.col-2 a{
+    margin-bottom: 15px;
+    display: inline-table;
+    width:32px;
+    height:30px;
+    border-radius: 50%;
+    background-color: #8ab4f0 ;
+    /* border:1px solid black; */
+    text-decoration: none;
+    text-align: center; 
+    vertical-align: middle;
+}
+.col-2 a i{
+    margin-top: 8px;
+     font-size: 16px;
+     color:white;
+   
+  
+}
+.col-2 h3{
+    margin-bottom: 10px;
+}
+/* more section */
+.section-4 .container{
+   background-color: #2d2640;    
+}
+.col-3{
+    width:30%;
+    /* border:1px solid green; */
+    padding: 30px 0;
+}
+.col-3 h2{
+    color:white;
+}
+.col-3 .btn{
+    width:175px;
+   margin-top:10%;
+   margin-left: 45%;
+}
+
+.footer-nav{
+    margin-top: 35px; 
+    line-height: 35px;
+    height:35px;
+}
+.footer-nav nav a{
+    text-decoration: none;
+    color:rgb(43, 41, 41);
+}
+.media hr{
+    max-width:1325px;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+
+.footer-2 nav {
+    text-align: center;
+}
+
+/* bottom footer */
+footer{
+    background-color: #2d2640;
+    height:50px;
+    line-height: 50px;
+}
+footer p{
+    color:white;
+    text-align:center
+}
